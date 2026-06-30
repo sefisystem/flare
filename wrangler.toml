@@ -1,0 +1,8 @@
+# Cloudflare Pages configuration
+# BUG 18 FIX: use pages_build_output_dir not destination
+[build]
+  command = ""
+  pages_build_output_dir = "public"
+
+[build.environment]
+  NODE_VERSION = "18"

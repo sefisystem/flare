@@ -1,8 +1,5 @@
-# Cloudflare Pages configuration
-# BUG 18 FIX: use pages_build_output_dir not destination
-[build]
-  command = ""
-  pages_build_output_dir = "public"
+name = "sefi-wc2026"
+compatibility_date = "2026-06-30"
 
-[build.environment]
-  NODE_VERSION = "18"
+[assets]
+directory = "./public"
